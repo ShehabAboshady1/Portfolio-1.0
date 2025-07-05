@@ -108,4 +108,10 @@ li > a {
   .divider {
     width: 10%;
   }
+  .title-text{
+    font-size: 5rem;
+  }
+  .secondary-text{
+    font-size: 2rem;
+  }
 }
