@@ -1,0 +1,106 @@
+#header,
+#footer {
+  background-color: #caf5f7;
+  text-align: center;
+  color: #004aad;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.sun {
+  justify-self: flex-end;
+  align-self: flex-start;
+}
+.clouds {
+  width: 100vw;
+  height: auto;
+  object-fit: fill;
+  position: relative;
+}
+.birds {
+  position: absolute;
+  top: 8%;
+  left: 3%;
+}
+.title-text {
+  position: relative;
+  bottom: 20px;
+  font-size: 7rem;
+  font-family: "Sacramento", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.secondary-text {
+  position: relative;
+  bottom: 20px;
+  font-size: 2.78rem;
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.secondary-text > span {
+  text-decoration: underline;
+}
+.row {
+  width: 100vw;
+  text-align: center;
+}
+.intro {
+  justify-self: center;
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.welcome,
+.title,
+div > h3,
+.feature > p,
+.copy,
+ul > h3,
+.projectstitle {
+  color: #004aad;
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.personal {
+  object-fit: cover;
+}
+.divider {
+  margin: 100px auto;
+  width: 5%;
+  border: #004aad 10px dotted;
+  border-bottom: 0;
+}
+.feature-icon {
+  background-color: #004aad;
+  color: #caf5f7;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+#skills,
+.lan {
+  background-color: #caf5f7;
+}
+.resize-image {
+  max-height: 100px;
+  object-fit: contain;
+}
+li > a {
+  color: #004aad;
+}
+.foot-divider {
+  width: 100%;
+  border: #004aad 15px dashed;
+  border-bottom: 0;
+}
+@media (max-width: 600px) {
+  .birds {
+    position: relative;
+    top: 0%;
+    left: 0%;
+  }
+  .divider {
+    width: 10%;
+  }
+}
